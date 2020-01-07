@@ -1,0 +1,67 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.loading-v{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../img/loading-bg.jpg");
+    background-size: cover;
+}
+
+#main-v {
+    position: absolute;
+    width: 0px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.music{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+
+}
+
+.loading-bar{
+    width: 100%;
+    height: 50px;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-25px);
+    position: absolute;
+}
+
+.jiandao{
+    width: 72px;
+    height: 66px;
+    position: absolute;
+    left: 10%;
+    z-index: 2;
+}
+
+.bfb{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #8c7853;
+    position: absolute;
+    top: 60%;
+    transform: translate(0);
+}
+
+.xuxian{
+    width: 60%;
+    height: 2px;
+    position: absolute;
+    left: 20%;
+    top: 23px;
+    border-top: 2px dashed #8c7853;
+}
